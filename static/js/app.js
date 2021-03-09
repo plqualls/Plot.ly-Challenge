@@ -50,6 +50,31 @@ d3.json("samples.json").then (sampledata =>{
         }
     };
     //Create bar plot
-    Plotly.newPlot("bar", data, layout);
+Plotly.newPlot("bar", data, layout);
+
+    //Bubble Chart
+    var trace1 = {
+        x: sampledata.samples[0].otu_ids,
+        y: sampledata.samples[0].sample_values,
+        mode: "markers",
+        marker: {
+            size: sampledata.samples[0].sample_values,
+            color: sampledata.samples[0].otu_ids
+        }, 
+    
+        text : sampledata.samples[0].otu_labels
+        
+    };
+    //Setting layout for bubble plot
+    var layout_2 = {
+        xaxis:{title: "OTU ID"},
+        height: 600,
+        width: 1000
+    };
+    
+    
+    }
+
 
 })
+
