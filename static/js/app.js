@@ -79,6 +79,33 @@ function getPlots(id) {
         });
     }
     //Get necessary data
+    function getDemoInfo(id) {
+        //Get data by reading json file.
+        d3.json("samples.json").then((data)=> {
+
+            //Get metadata information
+            var metadata = data.metadata;
+            console.log(metadata)
+
+            //Filter data by id.
+            var result = metadata.filter(meta => meta.id.toString() ===id)[0];
+
+            //Select demographic panel to insert data.
+            var demographicInfo = d3.select("sample-metadata");
+
+            //Clear the panel each time before getting info from a new id.
+            demographicInfo.html("")
+
+            //Grab data for the panel and append it to the panel.
+            Object.defineProperties(result).forEach((key) => {
+                demographicInfo.append("h5").text(key[0].toUpperCase() + ": " + key[1] + "\n");
+
+             
+            });
+
+        });
+        
+    }
 
 
 
