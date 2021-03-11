@@ -1,6 +1,6 @@
 <html>
 <h1>Plot.ly Homework - Belly Button Biodiversity</h1>
-<br>
+<body>
 <h2>:earth_americas:Deployment Link</h2>
 https://plqualls.github.io/Plot.ly-Challenge/
 
@@ -42,3 +42,10 @@ https://plqualls.github.io/Plot.ly-Challenge/
 <div>
 <h3>Horizontal Chart</h3>
 <img src="Images\Top10_OTU.png" width="460" height="400">
+<h3>Bubble Chart</h3>
+<img src="Images\Bubble_Chart.png" width="460" height="400">
+<h3>Dropdown Menu</h3>
+<img src="Images\Dropdown_menu.png" width="460" height="400">
+</div>
+</body>
+</html>
