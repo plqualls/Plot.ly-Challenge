@@ -41,4 +41,4 @@ https://plqualls.github.io/Plot.ly-Challenge/
 <p>Below are images from the website which displays the outcome of executing the process.</p>
 <div>
 <h3>Horizontal Chart</h3>
-<img src="Images\Top10_OTU.png" width="460" height="345">
+<img src="Images\Top10_OTU.png" width="460" height="400">
