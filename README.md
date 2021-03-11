@@ -20,5 +20,14 @@
 <p> The following information below are steps taken to accomplish the visualizations required for this assignment.</p>
 <ul>
 <li>Use the D3 library to read file <a href="https://github.com/plqualls/Plot.ly-Challenge/blob/main/samples.json">Samples.json</a></li>
+<li>Create a horizontal bar chart with a dropdown menu to display the top ten OTUs found in an individual.</li>
+<li>Use 'sample_values' as the values for the bar chart.</li>
+<li>Use 'otu_ids' as the labels for the bar chart.</li>
+<li>Use 'otu_labels' as the hovertext for the chart.</li>
 
-</ul>
+<li>Create a bubble chart that displays each sample</li>
+ <li>Use `otu_ids` for the x values.</li>
+<li>Use `sample_values` for the y values.</li>
+<li>Use `sample_values` for the marker size.</li>
+<li>Use `otu_ids` for the marker colors.</li>
+<li>Use `otu_labels` for the text values.</li>
