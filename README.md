@@ -25,9 +25,14 @@
 <li>Use 'otu_ids' as the labels for the bar chart.</li>
 <li>Use 'otu_labels' as the hovertext for the chart.</li>
 <br>
-<li>Create a bubble chart that displays each sample</li>
+<li>Create a bubble chart that displays each sample.</li>
  <li>Use `otu_ids` for the x values.</li>
 <li>Use `sample_values` for the y values.</li>
 <li>Use `sample_values` for the marker size.</li>
 <li>Use `otu_ids` for the marker colors.</li>
 <li>Use `otu_labels` for the text values.</li>
+<br>
+<li>Display the sample metadata, i.e., an individual's demographic information.</li>
+<li>Display each key-value pair from the metadata JSON object somewhere on the page.</li>
+<li>Update all of the plots any time that a new sample is selected.</li>
+</ul>
