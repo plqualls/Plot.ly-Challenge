@@ -6,7 +6,7 @@ https://plqualls.github.io/Plot.ly-Challenge/
 
 <h2>:memo:Background</h2>
 <p>The Belly Button Biodiversity dataset reveals that microbial species also referred to as OTUs, were present in more than 70% of people. At the same time, the rest of the human population was relatively rare.</p>
-<br>
+
 <h2>:key:Objective</h2>
 <p>In this assignment, the objective is to build an interactive dashboard utilizing the Belly Button Biodiversity dataset.</p>
 
