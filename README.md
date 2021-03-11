@@ -1,13 +1,13 @@
 <html>
 <h1>Plot.ly Homework - Belly Button Biodiversity</h1>
 <br>
-<h2> Deployment Link</h2>
-:earth_americas:URL:https://plqualls.github.io/Plot.ly-Challenge/
+<h2>:earth_americas:Deployment Link</h2>
+https://plqualls.github.io/Plot.ly-Challenge/
 
-<h2>Background</h2>
+<h2>:memo:Background</h2>
 <p>The Belly Button Biodiversity dataset reveals that microbial species also referred to as OTUs, were present in more than 70% of people. At the same time, the rest of the human population was relatively rare.</p>
 
-<h2>Objective</h2>
+<h2>:key:Objective</h2>
 <p>In this assignment, the objective is to build an interactive dashboard utilizing the Belly Button Biodiversity dataset.</p>
 
 <h2>:bar_chart:Required Visualizations</h2>
@@ -16,7 +16,7 @@
 <li>Bubble Chart </li>
 </ul>
 
-<h2>The Process</h2>
+<h2>:fountain_pen:The Process</h2>
 <p> The following information below are steps taken to accomplish the visualizations required for this assignment.</p>
 <ul>
 <li>Use the D3 library to read file <a href="https://github.com/plqualls/Plot.ly-Challenge/blob/main/samples.json">Samples.json</a></li>
@@ -36,3 +36,5 @@
 <li>Display each key-value pair from the metadata JSON object somewhere on the page.</li>
 <li>Update all of the plots any time that a new sample is selected.</li>
 </ul>
+
+<h2>:camera:Screenshots</h2>
