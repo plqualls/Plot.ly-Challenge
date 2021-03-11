@@ -9,3 +9,12 @@
 <br>
 <h2>Objective</h2>
 <p>In this assignment, the objective is to build an interactive dashboard utilizing the Belly Button Biodiversity dataset.</p>
+<br> 
+<h2>:bar_chart:Required Visualizations</h2>
+<ul>
+<li>Horizontal Bar Chart</li>
+<li>Bubble Chart </li>
+</ul>
+
+<h2>The Process</h2>
+<p> The following information below are steps taken to accomplish the visualizations required for this assignment.</p>
