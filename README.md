@@ -24,7 +24,7 @@
 <li>Use 'sample_values' as the values for the bar chart.</li>
 <li>Use 'otu_ids' as the labels for the bar chart.</li>
 <li>Use 'otu_labels' as the hovertext for the chart.</li>
-
+<br>
 <li>Create a bubble chart that displays each sample</li>
  <li>Use `otu_ids` for the x values.</li>
 <li>Use `sample_values` for the y values.</li>
